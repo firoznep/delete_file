@@ -1,9 +1,9 @@
 import shutil
 import os
 
-print('-' * 50, '\nWARNING\n','Once deleted, data will be removed permanently.\nDelete your own risk!\nTo delete: Place this file to the same file you want to delete.\n','_' * 50)
+print('-' * 50, '\nWARNING\n','Once deleted, data will be removed permanently.\nDelete at your own risk!\nTo delete: Place this file to the same file you want to delete.\n','_' * 50)
 
-print('*' * 10, 'To close type: exit', '*' * 10, '\n')
+print('*' * 10, 'To close type: "exit" or "e"', '*' * 10, '\n')
 
 
 def delAnyThing():
@@ -35,7 +35,3 @@ def delAnyThing():
 
 
 delAnyThing()
-
-
-    
-    
